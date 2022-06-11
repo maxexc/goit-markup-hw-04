@@ -390,6 +390,9 @@ h1[class="visually-hidden"] {
   background: #2f303a;
   padding: 60px 0;
 }
+.footer .container {
+  display: flex;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -423,6 +426,37 @@ h1[class="visually-hidden"] {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+/* NEW */
+.footer-contacts {
+  margin-left: 70px;
+  padding-top: 12px;
+}
+.footer-invite {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-soc-list {
+  display: flex;
+}
+.footer-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  fill: #ffffff;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #2196f3;
 }
 
 /* Портфолио */
