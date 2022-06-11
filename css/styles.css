@@ -43,7 +43,9 @@ ul {
 button {
   cursor: pointer;
 }
-/* a {
+a:focus,
+button:focus {outline: currentColor;} 
+/* a. {
   color: currentColor;
 } */
 /* Рука-указатель */
@@ -304,14 +306,14 @@ h1[class="visually-hidden"] {
 
 .section-clients {
   padding: 94px 0;
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
 }
 .clients {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   margin-bottom: 50px;
 }
 
@@ -333,21 +335,23 @@ h1[class="visually-hidden"] {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: #afb1b8;
+  color: #afb1b8;
+  /* fill: #afb1b8; */
 }
 .client-icon {
-  fill: #afb1b8;
+  fill: currentColor;  
 }
 .clients-link:hover,
 .clients-link:focus {
+  /* outline: currentColor; */
   border: 1px solid #2196f3;
-  fill: #2196f3;
+  color: #2196f3; 
 }
 
-.client-icon:hover {
+/* .client-icon:hover {
   fill: #2196f3;
   /* background-color: tomato; */
-}
+} */
 .icon {
   background-color: #188ce8;
   fill: white;
