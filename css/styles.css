@@ -333,19 +333,20 @@ h1[class="visually-hidden"] {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: black;
+  fill: #afb1b8;
 }
 .client-icon {
-  fill: currentColor;
+  fill: #afb1b8;
 }
 .clients-link:hover,
 .clients-link:focus {
   border: 1px solid #2196f3;
+  fill: #2196f3;
 }
 
 .client-icon:hover {
   fill: #2196f3;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 .icon {
   background-color: #188ce8;
@@ -355,9 +356,9 @@ h1[class="visually-hidden"] {
   fill: tomato;
 }
 
-instagram:hover {
+/* instagram:hover {
   fill: tomato;
-}
+} */
 
 /* footer */
 
