@@ -18,6 +18,25 @@ html {
   content: "♥️";
   color: brown;
 } */
+.envelope::before {
+  content: url(../images/envelope.svg);
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.envelope:hover.envelope::before,
+.envelope:focus.envelope::before {
+  content: url(../images/envelope_hover.svg);
+}
+
+.smartphone::before {
+  content: url(../images/smartphone.svg);
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.smartphone:hover.smartphone::before,
+.smartphone:focus.smartphone::before {
+  content: url(../images/smartphone_hover.svg);
+}
 
 .container {
   width: 1200px;
