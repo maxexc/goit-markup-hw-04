@@ -314,25 +314,32 @@ h1[class="visually-hidden"] {
   outline: 1px solid red;
   margin-bottom: 50px;
 }
+
+/* ICONS */
+
 .clients-list {
   display: flex;
-  outline: 1px solid green;
 }
 .clients-item {
-  width: 170px;
-  height: 92px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-  border: 1px solid green; /* #afb1b8; */
-  border-radius: 4px;
 }
-
 .clients-item:not(:last-child) {
   margin-right: var(--typical-margin);
 }
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.client-icon {
+  fill: #afb1b8;
+}
 
 /* footer */
+
 .footer {
   background: #2f303a;
   padding: 60px 0;
