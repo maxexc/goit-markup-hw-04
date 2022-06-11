@@ -43,9 +43,9 @@ ul {
 button {
   cursor: pointer;
 }
-a {
+/* a {
   color: currentColor;
-}
+} */
 /* Рука-указатель */
 button {
   cursor: pointer;
@@ -333,9 +333,19 @@ h1[class="visually-hidden"] {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  fill: #ffffff;
 }
-.client-icon {
-  fill: #afb1b8;
+.client-icon:hover {
+  fill: #2196f3;
+}
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+}
+
+.icon:hover {
+  fill: #2196f3;
 }
 
 /* footer */
