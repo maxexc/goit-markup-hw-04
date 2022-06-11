@@ -44,7 +44,9 @@ button {
   cursor: pointer;
 }
 a:focus,
-button:focus {outline: currentColor;} 
+button:focus {
+  outline: currentColor;
+}
 /* a. {
   color: currentColor;
 } */
@@ -339,19 +341,14 @@ h1[class="visually-hidden"] {
   /* fill: #afb1b8; */
 }
 .client-icon {
-  fill: currentColor;  
+  fill: currentColor;
 }
 .clients-link:hover,
 .clients-link:focus {
-  /* outline: currentColor; */
   border: 1px solid #2196f3;
-  color: #2196f3; 
+  color: #2196f3;
 }
 
-/* .client-icon:hover {
-  fill: #2196f3;
-  /* background-color: tomato; */
-} */
 .icon {
   background-color: #188ce8;
   fill: white;
@@ -359,10 +356,6 @@ h1[class="visually-hidden"] {
 .icon:hover {
   fill: tomato;
 }
-
-/* instagram:hover {
-  fill: tomato;
-} */
 
 /* footer */
 
