@@ -37,6 +37,15 @@ html {
 .smartphone:focus.smartphone::before {
   content: url(../images/smartphone_hover.svg);
 }
+/* .header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--highlight-color);
+} */
 
 .container {
   width: 1200px;
