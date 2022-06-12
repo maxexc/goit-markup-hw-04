@@ -18,7 +18,7 @@ html {
   content: "♥️";
   color: brown;
 } */
-.envelope::before {
+/* .envelope::before {
   content: url(../images/envelope.svg);
   vertical-align: middle;
   margin-right: 10px;
@@ -36,16 +36,11 @@ html {
 .smartphone:hover.smartphone::before,
 .smartphone:focus.smartphone::before {
   content: url(../images/smartphone_hover.svg);
-}
-/* .header-icon {
+} */
+.header-icon {
   margin-right: 10px;
   fill: currentColor;
 }
-
-.header-link:hover,
-.header-link:focus {
-  color: var(--highlight-color);
-} */
 
 .container {
   width: 1200px;
@@ -146,6 +141,8 @@ button {
   color: var(--main-color);
 }
 .header-link {
+  display: flex;
+  align-items: center;
   color: var(--header-link-color);
 }
 .contact-item:not(:first-child) {
