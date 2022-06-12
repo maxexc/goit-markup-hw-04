@@ -66,6 +66,7 @@ ul {
 button {
   cursor: pointer;
 }
+/* убираем рамку при TAB */
 a:focus,
 button:focus {
   outline: currentColor;
